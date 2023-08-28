@@ -1,7 +1,7 @@
 export type User = {
-  id: wpisz_typ_danych;
-  name: wpisz_typ_danych;
-  age: wpisz_typ_danych | null;
+  id: number;
+  name: string;
+  age: number | null;
   hobbies?: string[];
 };
 
